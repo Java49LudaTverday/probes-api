@@ -1,4 +1,4 @@
-package telran.probes.dto;
+package telran.probes.api;
 
 public interface ErrorMessages {
 	String MISSING_SENSOR_ID = "missing sensor id";
@@ -9,4 +9,6 @@ public interface ErrorMessages {
 	String MISSING_MIN_VALUE = "missing min value";
 	String MISSING_MAX_VALUE = "missing max value";
 	String EMPTY_EMAILS = "No emails provided";
+	String PASSWORD_SIZE_MESSAGE = "password must have more then 8 simbols";
+	String EMPTY_ROLES_MESSAGE = "roles could not be empty";
 }

@@ -5,6 +5,7 @@ import java.util.Objects;
 
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
+import telran.probes.api.ErrorMessages;
 
 public record SensorEmailsDto(
 		@NotNull(message = ErrorMessages.MISSING_SENSOR_ID)
